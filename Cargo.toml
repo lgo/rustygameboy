@@ -1,0 +1,15 @@
+[package]
+
+name = "rustychip"
+version = "0.0.1"
+authors = ["Joey Pereira <joey@pereira.io>"]
+
+[[bin]]
+
+name = "rustychip"
+path = "src/main.rs"
+
+[dependencies]
+getopts = "0.2"
+sdl = "0.3.6"
+time = "0.1.33"
